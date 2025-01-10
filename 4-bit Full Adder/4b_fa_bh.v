@@ -5,5 +5,6 @@ module 4_fa_bh(a,b,cin,sum,cout);
   output [3:0]sum;
   output cout;
 
-  assign {sum,cout} = a+b+cin;
+  always@(*)
+      {sum,cout} = a+b+cin;
 endmodule
