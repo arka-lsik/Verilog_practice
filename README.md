@@ -14,3 +14,8 @@
 11. Verilog code for 8-bit Barrel Shifter behavioral model.
 12. Verilog code for Single Port RAM version with behavioral modeling.
 ### Sequential Circuits(LOGIC)
+1. Verilog code for D-Latch Behavioral.
+2. Verilog code for D-Latch Behavioral with Ashychronus reset.
+3. Verilog code for D FF Behavioral.
+4. Verilog code for D FF Behavioral with Ashychronus reset in different cases.
+5. Verilog code for D FF Behavioral with Ashychronus active low & high reset (positive edge triggered).
