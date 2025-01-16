@@ -1,6 +1,6 @@
 module (d,q,clk);
-  input clk,q;
-  output d;
+  input clk,d;
+  output q;
 
   always@(posedge clk)
     q<=d;
