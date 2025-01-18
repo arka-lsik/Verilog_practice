@@ -1,5 +1,5 @@
 //5 bit left shift register
-module (SI,SR,clk,rst,so);
+module shift_lh(SI,SR,clk,rst,so);
   input SI,clk,rst;
   output so;
   output reg[4:0]sr;
