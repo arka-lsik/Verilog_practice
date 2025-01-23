@@ -1,6 +1,7 @@
 //Design a 8 Bit counter with UP & DOWN in same design.
 module (clk,rst,data,load,ud,count);
   input clk,rst,load,ud;
+  input [7:0]data;
   output [7:0]count;
   reg [7:0]count_temp;
 
