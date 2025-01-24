@@ -29,3 +29,6 @@
 13. Design of MOD 46(UP) Counter.
 14. Design of Range UP Counter.
 15. Design of Range UP DOWN Counter.
+16. Design of frequency divider by 2.
+17. Design of frequency divider by 4.
+18. Design of frequency divider by 3.
