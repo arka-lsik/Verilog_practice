@@ -33,3 +33,12 @@
 17. Design of frequency divider by 4.
 18. Design of frequency divider by 3.
 19. Write a verilog code for 101 non overlapping sequence detector for Mealy machine.
+20. Write a verilog code for 011 non overlapping sequence detector for Mealy machine.
+21. Write a verilog code for 000 non overlapping sequence detector for Mealy machine.
+22. Write a verilog code for 0101 non overlapping sequence detector for Mealy machine.
+23. Write a verilog code for 11011 non overlapping sequence detector for Mealy machine.
+24. Write a verilog code for 101 overlapping sequence detector for Mealy machine.
+25. Write a verilog code for 011 overlapping sequence detector for Mealy machine.
+26. Write a verilog code for 000 overlapping sequence detector for Mealy machine.
+27. Write a verilog code for 0101 overlapping sequence detector for Mealy machine.
+28. Write a verilog code for 11011 overlapping sequence detector for Mealy machine.
