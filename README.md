@@ -42,3 +42,4 @@
 26. Write a verilog code for 000 overlapping sequence detector for Mealy machine.
 27. Write a verilog code for 0101 overlapping sequence detector for Mealy machine.
 28. Write a verilog code for 11011 overlapping sequence detector for Mealy machine.
+29. Write a verilog code for bit reversal.
