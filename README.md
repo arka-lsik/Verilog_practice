@@ -42,4 +42,14 @@
 26. Write a verilog code for 000 overlapping sequence detector for Mealy machine.
 27. Write a verilog code for 0101 overlapping sequence detector for Mealy machine.
 28. Write a verilog code for 11011 overlapping sequence detector for Mealy machine.
-29. Write a verilog code for bit reversal.
+29. Write a verilog code for 101 non overlapping sequence detector for Moore machine.
+20. Write a verilog code for 011 non overlapping sequence detector for Moore machine.
+21. Write a verilog code for 000 non overlapping sequence detector for Moore machine.
+22. Write a verilog code for 0101 non overlapping sequence detector for Moore machine.
+23. Write a verilog code for 11011 non overlapping sequence detector for Moore machine.
+24. Write a verilog code for 101 overlapping sequence detector for Moore machine.
+25. Write a verilog code for 011 overlapping sequence detector for Moore machine.
+26. Write a verilog code for 000 overlapping sequence detector for Moore machine.
+27. Write a verilog code for 0101 overlapping sequence detector for Moore machine.
+28. Write a verilog code for 11011 overlapping sequence detector for Moore machine.
+30. Write a verilog code for bit reversal.
