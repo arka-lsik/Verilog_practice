@@ -1,4 +1,4 @@
-//Code for to seuence detector for 101 overlapping case in Moore machine
+//Code for to seuence detector for 010 overlapping case in Moore machine
 module seq_det_101_ov(clk,rst,inp,det);
   input clk,rst,inp;
   output reg det;
@@ -14,21 +14,21 @@ module seq_det_101_ov(clk,rst,inp,det);
   always@(pr_st,inp)
     case(pr_st)
       s0: if(inp)
-        nxt_st=s1;
-      else
         nxt_st=s0;
+      else
+        nxt_st=s1;
       s1: if(inp)
-        nxt_st=s1;
-      else
         nxt_st=s2;
-      s2: if(inp)
-        nxt_st=s3;
       else
-        nxt_st=s0;
-      s3: if(inp)
         nxt_st=s1;
+      s2: if(inp)
+        nxt_st=s0;
       else
-        nxt-st=s2;
+        nxt_st=s3;
+      s3: if(inp)
+        nxt_st=s2;
+      else
+        nxt-st=s1;
       default: nxt_st=s0;
     endcase
 
