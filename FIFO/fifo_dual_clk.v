@@ -16,7 +16,7 @@ module fifo_single_clk(clk_w,clk_r,rst,buf_in,buf_out,fifo_count,wr_en,r_en,buf_
       but_full = (fifo_count==64);
     end
 
-  //Set the fifo counter block 
+  //Set the fifo counter block separetly for write clovk & read clock
   always@(posedge clk_w or negedge rst)
     begin
       if(rst)
@@ -60,7 +60,7 @@ module fifo_single_clk(clk_w,clk_r,rst,buf_in,buf_out,fifo_count,wr_en,r_en,buf_
                   end
                 end
 
-        // Managing the pointer
+        // Managing the pointer for differently for write & read clock
   always@(posedge clk_w or negedge rst)
                 begin
                   if(rst) begin
