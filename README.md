@@ -53,3 +53,6 @@
 27. Write a verilog code for 0101 overlapping sequence detector for Moore machine.
 28. Write a verilog code for 11011 overlapping sequence detector for Moore machine.
 30. Write a verilog code for bit reversal.
+31. Swapping of two numbers.
+32. Fibonacci Series.
+33. Count ones in input data.
