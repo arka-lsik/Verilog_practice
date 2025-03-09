@@ -8,7 +8,7 @@ module mux_2x1_df(Y,I,S);
 endmodule                 
 
 //2x1 mux behavioral model
-module mux_2x1_bh(Y,I,S)
+module mux_2x1_bh(Y,I,S);
        input [1:0]I;
        input S;
        output reg Y;
