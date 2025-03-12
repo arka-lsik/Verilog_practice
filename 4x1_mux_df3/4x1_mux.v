@@ -5,5 +5,5 @@ module 41_mux_df2(y,S,I);
   input [1:0]S;
   output y;
 
-  assign y = S(2'd00) ? I[0] : (S(2'd01) ? I[1] : (S(2'd10) ? I[2] : I[3] ));
+  assign y = (S==2'b00) ? I[0] : ((S==2'b01) ? I[1] : ((S==2'd10) ? I[2] : I[3] ));
 endmodule
