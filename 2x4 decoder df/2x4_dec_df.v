@@ -7,5 +7,5 @@ module dec_2x4_df(I,En,y);
   assign y = { En & I[0] & I[1] |
               En & I[0] & ~I[1] |
               En & ~I[0] & I[1] |
-              en & ~I[0] & ~I[1] };
+              En & ~I[0] & ~I[1] };
 endmodule
