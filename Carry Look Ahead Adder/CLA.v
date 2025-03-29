@@ -1,4 +1,4 @@
-module (a,b,cin,sum,cout);
+module cla(a,b,cin,sum,cout);
   input [3:0]a,b;
   input cin;
   output [3:0]sum;
