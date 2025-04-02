@@ -1,7 +1,7 @@
 //D latch behavioral model with Ashynchronus resst 
 module d_latch_rst_bh(q,d,en,rst);
   input d,en,rst;
-  output q;
+  output reg q;
 
   always@(d,en,rst)
     if(rst)
