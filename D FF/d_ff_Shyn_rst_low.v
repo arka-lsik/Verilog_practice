@@ -4,7 +4,7 @@ module (q,d,clk,rst);
   input d,clk,rst;
   output q;
 
-  always@(posedge clk or negedge rst)
+  always@(posedge clk)
     if(!rst)
       q<=1'b0;
     else 
