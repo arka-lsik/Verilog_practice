@@ -6,4 +6,8 @@ module mux_4x1_df2(y,I,S);
   output y;
 
   assign y = ~|S ? I[0] : ( &S ? I[3] : ( S[0] ? I[1] : I[2]));
+  //assign y = (s==2'b00) ? I[0] :
+    //(S==2'b01) ? I[1] :
+    //(s==2'b10) ? I[2] :
+  //I[3];   use any of the logic
 endmodule
