@@ -5,5 +5,5 @@ module 4b_fa_df(a,b,cin,sum,cout);
   output [3:0]sum;
   output cout;
 
-  assign {sum.cout} = a+b+cin;
+  assign {sum.cout} = a+b+cin; //use concatination operator to do sum & cout together
 endmodule
