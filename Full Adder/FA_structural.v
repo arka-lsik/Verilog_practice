@@ -8,5 +8,5 @@ module fa_st(a,b,cin,cout,sum);
   xor G2(sum,w1,cin);
   and G3(w2,a,b);
   and G4(w3,w1,cin);
-  xor(cout,w3,w2);
+  xor G5(cout,w3,w2);
 endmodule
