@@ -1,4 +1,4 @@
-//D FF Ashynchronus +ve edge triggered Active Low or Active High reset
+//D FF Ashynchronus +ve edge triggered Active Low or Active High set
 //Usally this is a reset priority structure
 module d_ff_ashyn_rst_lh(q,d,clk,rst,set);
   input d,clk,rst,set;
