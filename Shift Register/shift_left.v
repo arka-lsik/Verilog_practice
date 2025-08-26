@@ -1,6 +1,6 @@
 //5 bit left shift register
 module shift_lh(SI,SR,clk,rst,so);
-  input SI,clk,rst;
+  input sI,clk,rst;
   output so;
   output reg[4:0]sr;
 
@@ -12,7 +12,7 @@ module shift_lh(SI,SR,clk,rst,so);
       end
   else 
     begin
-    sr[0]<=so;
+      sr[0]<=sI;
     sr[1]<=sr[0];
     sr[2]<=sr[1];
     sr[3]<=sr[2];
