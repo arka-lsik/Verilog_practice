@@ -4,7 +4,7 @@ module swap_num_temp(a,b,temp,clk);
 
   always@(posedge clk)
     begin
-      temp = b;
+      temp = a;
       a = b;
       b = temp;
     end
